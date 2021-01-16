@@ -1,0 +1,11 @@
+C:\Users\user\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojAssemblyReference.cache
+C:\Users\user\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\user\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\user\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsN1VeX.Properties.Resources.resources
+C:\Users\user\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsN1VeX.exe.config
+C:\Users\user\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsN1VeX.exe
+C:\Users\user\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsN1VeX.pdb
+C:\Users\user\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsN1VeX.exe
+C:\Users\user\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsN1VeX.pdb
+C:\Users\user\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsN1VeX.Form2.resources
