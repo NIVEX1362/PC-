@@ -52,11 +52,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="CategoryForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="CategoryForm.Designer.cs">
+      <DependentUpon>CategoryForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Form3.cs">
       <SubType>Form</SubType>
@@ -64,16 +64,25 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="CategoryForm.resx">
+      <DependentUpon>CategoryForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -142,6 +151,411 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Корпус CoolerMaster MasterBox Q300P MCB-Q300P-KANN-S02 черный 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001c9ab3c0599660c72fd8b78b717fb21427df5e93d89f5a640ed2c47dc347c7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1b32a3ee2edc7686bb64685d2b91d64236e8c8ab13c2b24a91c78f4388305628.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1b94fd7306cde0db750345aa15f975170c622193117e7f977c594512fbe8f090.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1f4cb38d30147308db54d8e4b7ec87876d66e8ac280824235619d31bbb640f8a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2b9514c743c8d6d641bc9aa49ed34df08e90c37ed8090a69c241a38ca6828512.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2c9b7969ac94974049a64ded7fa005360a2a5ee119b63a687552d1e763dec095.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2c169a994070e678a045e24fdeef052f41f68b6f08cd6bd503f194b2492bc5eb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2de1a89609e4467e2ff4010ba0be6778e71f286aeb4d58cf124f510c491235f9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2de13d051733280d1648517adda08e90a5dd0910cc3abae1322067f1006218af.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2ee51743b3c1d7a80ddbe9ec77f7c96c4809e47e14be6a9ea3215e18e1b6a622.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3a2ce1e3ad99dfd29f8e175006bd834755c62425f9af0b54b735555f13eac0d2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3a868b049e42980de26dfc6e3418706d40c62560668d475e37400ba352b272a8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4ec990398a1f17baa31dabdbc7eb69198a748aa7c066e9a9e8f8333800eccc4f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5ea7ae98713676bbc28047d12717c0b4dd818f7bd92fb198ad83210c22e893c0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6d9ff4da2157134e83ed50140afcd6a41bbb8638147fdbd106f04bfb23cc90e8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7c0fe74729e3d1495719c2b9bf1ff89ccf0c4b357de559767f7457e840339715.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8d587f0eae25b1237db2c604dde368022f30f3ccdb6a1f03a9d5eeeecfc93e18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\09bab6ed50fc38029439aa5caad07443835fa8cfc49c2692aa9984ba2870fa6b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9a9516a45aad7667058ffe1acd743e5871f65c6be9f7cafa4e4233e380154f97.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9f6ff340960d6b68528c12454060f4367c9823f93831fada71ae2ae88a217743.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\24fa14defeac5529e23ddd6e159106016004fc380ae0b717608724d8f6917da8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\032ac885376149b4899f3f471d5f7b53f40b893ce0481b0bcde06aa8cd5295d1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\44aa42ce8b26d32d236b9e4813c72916ccf1e02abcbb5fef6ac202a6e187b4bb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\46f852306b6faff8c4e0af3292c03d070aa8d0d5d73f109cf8527e44c475ddd1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\48ea159b19f3ad5fa821b255bc82d879ae87850fd86fa350bbc286ab42ed850b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\58d2f3b966a81f6644de67c19347227e0325013c2dcb308aa5e8a91ce308f721.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\76a663056f87397c245bd4701b923cf0ea31f5d0eed0e5687afe7255a687f10d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\91ef1ab161123d4d48fcd2596412c1693f281683104428b3e1e00a6a0585fa85.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\114be63388d3d9f536701df0741daee51724c603b6f385bac0bb47af9d2d94c5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\293e9c041f3f091fc75d437828316fe8b72023b258664fb7a63f46b2eb6365ca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\339c7546b8579cd6c0b29ca000c658474f0a6da3576ee731c4599fae38d84567.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\540ea3e3ee1db18de1059a6a4473b962d6ed8614b6b60d72a344875ed9eed695.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\879bd0d95c7e23ff0ff43b5a3889ba357a221303dad13a31b6d24d86bc3d001b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\893a5ecc3b7f78c4bdb47cd0fb5ce2d682a2349171513092d3aafa0d53f8fc26.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3581b708038cd47466f26dbb1ea129a60125fa765059aa99ee9ce305f09de4a4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4099e82f1be5c9dd2086cf5de8e45a47f061e322d58cedbadf393c508b114e8b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\07787ee18f2a1ce2b076ed6357d759e57c2b88ec07832c228df971ac26be5b42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\08617ba84bd1d1d585a777dc199ae0ab7a15c13277f1ccb301a1ebb3f42144cc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9317e0e02ea10fd61df56299452f8cee8a04eec0eae9ca4473344a9cb6402ee2 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9317e0e02ea10fd61df56299452f8cee8a04eec0eae9ca4473344a9cb6402ee2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36936e5027a77ac1518a8f1885deefecbb063d107e529597428189deb5690044.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\48822a842545ffd3059d8bf32cddba99d975471429e8baba07877f82bde2c164.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\90565d2ded6ab9793cc24cd9dd7911b6c5aaccb37f3ce1713e0f628ffed397aa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16038838a84cdd849dd50016553c3db7aabc16dc2fc7352aaa2d775d3e59cf7b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0337433311b2da3ef55ae5e251010b4fcef1596f978e74fbc9f41b5d5d6b83bc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a46236eaaf365ec78d117297bb9cc4929bec129bfb4865386264f4e821edde9d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ad8d4512f244d91a284dcb85c40dafcd745bfb47551ab50923c37a36b4f6f95e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b25d86dd7964b6120ba876fc8a4eb37d5158b0afd2df20d9472b371185aa31e7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c38ad5f5d7c795c6c95b46e80f50e336ef9ed93fc6e34999c0883be8ed568ccc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c711b4c31afd32c739cc2c777d8df62e00a5ea3a3aafac89440df630ecc72b61.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c829af57c9cca91debffd632e83cfcbbcd5b63245268cc4dfc50361cfe089c56.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cb8dc0750daec6e30e498f6dcaa51a3238f5959db9dc4f1edc6dcf13ea712e4a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cef76acdc30a52262df8e72ec292932976289759fda5dd9112e4fa4cb38158dc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cf54881a9b0c2b361439c5f314e65a25486587ad094ad23185435d56ec8975c5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d00209e38e2eaf57839a7c1701c83911acc2075367f65158983ad3bf74bb87ec.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d95966c080feef3156b00262fea37fab2c9b5a28fb99ea945674f6b2ebfe6af8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\daa69963c62bad4141991e399b2bb42e9b7b90b613e68dba02e29f27e07d25d8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\db27210e31d1ea3ab6dc2e372d493d177bc55764fcf10e88879340b78038486e.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e14519811e82129f98e024d17552893ca1471b3c1bd68fb49705aed6b94af052.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ec2e72ba28daf96d655cacb1b411965ee84433e463fcafeaaa53c0eebb0f61de.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f2eadf3d3836a2568439158191d32cb3d98dade10d03a920c59d4f8a01161888.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f064ce5d68e02ac1b8e660ffbb0ef7f58e6abfbf81103ce148a366596e4b9605.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f4363b2efd4f5292f57eb5e37ea92e7a1a590fd34a01341d135497737883e9f4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f391984b5e1a394a18395ef7a5e7dfc48bcbf86d7ec77c77d283a8dc08fc3663.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fa4294f7c04de917dd12a6008ab97f3107576c247ea7080869f51dbf4ecac158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GTX 1660 SUPER вид сбоку.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GTX 1660 SUPER оробка.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GTX 1660 SUPER.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RTX 2060 D6 оробка.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RTX 2060 D6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RX 5500 XT вид сбоку.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RX 5500 XT коробка.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RX 5500 XT Трёх вентеляторная версия Вид сбоку.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RX 5500 XT Трёх вентеляторная версия коробка.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RX 5500 XT Трёх вентеляторная версия.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RX 5500 XT.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Блок питания be quiet! SYSTEM POWER 9 400W.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Блок питания be quiet! SYSTEM POWER 9 550W.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Блок питания Chieftec 750W.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Блок питания CoolerMaster MWE 550 WHITE - V2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Блок питания Corsair CV550.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Блок питания Deepcool DQ650.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Блок питания Thermaltake Toughpower GX1 500W.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Блок питания ZALMAN MegaMax.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта Asus GeForce GTX 1060 STRIX 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта Asus GeForce GTX 1060 STRIX.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта Asus GeForce GTX 1080 Ti STRIX КОРОБКА.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта Asus GeForce GTX 1080 Ti STRIX.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта ASUS GeForce GTX 1660 SUPER TUF GAMING OC КОРОБКА.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта ASUS GeForce GTX 1660 SUPER TUF GAMING OC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта ColorFul GeForce RTX 3070 Battle-Ax NB-V КОРОБКА.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта ColorFul GeForce RTX 3070 Battle-Ax NB-V.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта GIGABYTE AMD Radeon RX 5600 XT GAMING OC КОРОБКА.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта GIGABYTE AMD Radeon RX 5600 XT GAMING OC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта GIGABYTE AMD Radeon RX 5700 XT GAMING OC КОРОБКА.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта GIGABYTE AMD Radeon RX 5700 XT GAMING OC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта Gigabyte AORUS GeForce GTX 1080 Ti КОРОБКА.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта Gigabyte AORUS GeForce GTX 1080 Ti.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта GIGABYTE AORUS GeForce RTX 3090 MASTER КОРОБКА.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта GIGABYTE AORUS GeForce RTX 3090 MASTER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта Gigabyte GeForce GTX 1060 WF OC КОРОБКА.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта Gigabyte GeForce GTX 1060 WF OC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта Gigabyte GeForce GTX 1080 Ti AORUS XTREME WB КОРОБКА.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта Gigabyte GeForce GTX 1080 Ti AORUS XTREME WB.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта Gigabyte GeForce GTX 1080 Ti FOUNDER EDITION КОРОБКА.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта Gigabyte GeForce GTX 1080 Ti FOUNDER EDITION.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта GIGABYTE GeForce RTX 2080 Super AORUS WATERFORCE WB КОРОБКА.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта GIGABYTE GeForce RTX 2080 Super AORUS WATERFORCE WB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта GIGABYTE GeForce RTX 3090 GAMING OC КОРОБКА.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта GIGABYTE GeForce RTX 3090 GAMING OC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта KFA2 GeForce GTX 1080 Ti HOF КОРОБКА.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта KFA2 GeForce GTX 1080 Ti HOF.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта MSI GeForce RTX 2060 GAMING КОРОБКА.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта MSI GeForce RTX 2060 GAMING.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта MSI GeForce RTX 3090 GAMING X TRIO КОРОБКА.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта MSI GeForce RTX 3090 GAMING X TRIO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта Palit GeForce GTX 1080 Ti SUPER JETSTREAM КОРОБКА.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта Palit GeForce GTX 1080 Ti SUPER JETSTREAM.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта Palit GeForce RTX 2080 Super GAMEROCK Premium Edition КОРОБКА.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта Palit GeForce RTX 2080 Super GAMEROCK Premium Edition.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта Palit GeForce RTX 3070 GamingPro КОРОБКА.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта Palit GeForce RTX 3070 GamingPro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта Palit GeForce RTX 3090 GameRock КОРОБКА.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Видеокарта Palit GeForce RTX 3090 GameRock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Корпус 1STPLAYER DK DX 11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Корпус 1STPLAYER DK DX.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Корпус CoolerMaster MasterBox Q300P MCB-Q300P-KANN-S02 черный 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Корпус CoolerMaster MasterBox Q300P MCB-Q300P-KANN-S02 черный 21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Корпус Cougar MX660 Mesh RGB 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Корпус Cougar MX660 Mesh RGB 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Корпус Cougar MX660 Mesh RGB1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Корпус DEEPCOOL MATREXX 55 V3 ADD-RGB 3F 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Корпус DEEPCOOL MATREXX 55 V3 ADD-RGB 3F 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Корпус GiNZZU GL550 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Корпус GiNZZU GL5501.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
