@@ -17,8 +17,26 @@ namespace WindowsN1VeX
             InitializeComponent();
             if (category == "Корпуса")
             {
-
+                pictureBox1.Load("../../Resources/Корпуса/Корпус GiNZZU GL550.jpg");
             }
+            if (category == "Видеокарты")
+            {
+                pictureBox1.Load("../../Resources/Видеокарты/Видеокарта KFA2 GeForce GTX 1080 Ti HOF КОРОБКА.jpg");
+            }
+
+            if (category == "Блок питания")
+            {
+                pictureBox1.Load("../../Resources/Блок питания/Блок питания Corsair CV550.jpg");
+                label1.Text = "Блок питания Corsair CV550";
+            }
+
+
+            if (category == "Материнская плата")
+            {
+                pictureBox1.Load("../../Resources/Материнская плата/9317e0e02ea10fd61df56299452f8cee8a04eec0eae9ca4473344a9cb6402ee2.jpg");
+            }
+
+
         }
 
         private void Form2_Load(object sender, EventArgs e)

@@ -44,7 +44,7 @@ namespace WindowsN1VeX
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            CategoryForm f = new CategoryForm("Видеократы");
+            CategoryForm f = new CategoryForm("Видеокарты");
             f.Show();
         }
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -73,19 +73,19 @@ namespace WindowsN1VeX
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            CategoryForm f = new CategoryForm("Охлаждение");
+            CategoryForm f = new CategoryForm("Материнская плата");
             f.Show();
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
-            CategoryForm f = new CategoryForm("Охлаждение");
+            CategoryForm f = new CategoryForm("HDD");
             f.Show();
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
-            CategoryForm f = new CategoryForm("Охлаждение");
+            CategoryForm f = new CategoryForm("SSD");
             f.Show();
         }
 

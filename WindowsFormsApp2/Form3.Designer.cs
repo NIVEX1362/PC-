@@ -67,7 +67,7 @@ namespace WindowsN1VeX
             // 
             // pictureBox18
             // 
-            this.pictureBox18.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_GIGABYTE_AMD_Radeon_RX_5700_XT_GAMING_OC;
+            ///this.pictureBox18.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_GIGABYTE_AMD_Radeon_RX_5700_XT_GAMING_OC;
             this.pictureBox18.Location = new System.Drawing.Point(1596, 390);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(239, 169);
@@ -76,7 +76,7 @@ namespace WindowsN1VeX
             // 
             // pictureBox17
             // 
-            this.pictureBox17.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_GIGABYTE_GeForce_RTX_2080_Super_AORUS_WATERFORCE_WB;
+            //this.pictureBox17.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_GIGABYTE_GeForce_RTX_2080_Super_AORUS_WATERFORCE_WB;
             this.pictureBox17.Location = new System.Drawing.Point(69, 621);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(239, 169);
@@ -85,7 +85,7 @@ namespace WindowsN1VeX
             // 
             // pictureBox16
             // 
-            this.pictureBox16.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_Gigabyte_GeForce_GTX_1080_Ti_FOUNDER_EDITION;
+            //this.pictureBox16.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_Gigabyte_GeForce_GTX_1080_Ti_FOUNDER_EDITION;
             this.pictureBox16.Location = new System.Drawing.Point(370, 621);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(239, 169);
@@ -94,7 +94,7 @@ namespace WindowsN1VeX
             // 
             // pictureBox9
             // 
-            this.pictureBox9.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_Gigabyte_GeForce_GTX_1080_Ti_AORUS_XTREME_WB;
+            //   this.pictureBox9.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_Gigabyte_GeForce_GTX_1080_Ti_AORUS_XTREME_WB;
             this.pictureBox9.Location = new System.Drawing.Point(657, 621);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(239, 169);
@@ -103,7 +103,7 @@ namespace WindowsN1VeX
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_Gigabyte_GeForce_GTX_1060_WF_OC;
+            //   this.pictureBox8.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_Gigabyte_GeForce_GTX_1060_WF_OC;
             this.pictureBox8.Location = new System.Drawing.Point(965, 621);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(239, 169);
@@ -112,7 +112,7 @@ namespace WindowsN1VeX
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_Gigabyte_AORUS_GeForce_GTX_1080_Ti;
+            //   this.pictureBox7.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_Gigabyte_AORUS_GeForce_GTX_1080_Ti;
             this.pictureBox7.Location = new System.Drawing.Point(1251, 621);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(239, 169);
@@ -121,7 +121,7 @@ namespace WindowsN1VeX
             // 
             // pictureBox15
             // 
-            this.pictureBox15.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_ASUS_GeForce_GTX_1660_SUPER_TUF_GAMING_OC;
+            //   this.pictureBox15.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_ASUS_GeForce_GTX_1660_SUPER_TUF_GAMING_OC;
             this.pictureBox15.Location = new System.Drawing.Point(1251, 390);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(239, 169);
@@ -130,7 +130,7 @@ namespace WindowsN1VeX
             // 
             // pictureBox14
             // 
-            this.pictureBox14.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_MSI_GeForce_RTX_3090_GAMING_X_TRIO;
+            //    this.pictureBox14.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_MSI_GeForce_RTX_3090_GAMING_X_TRIO;
             this.pictureBox14.Location = new System.Drawing.Point(69, 382);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(239, 169);
@@ -139,7 +139,7 @@ namespace WindowsN1VeX
             // 
             // pictureBox13
             // 
-            this.pictureBox13.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_MSI_GeForce_RTX_2060_GAMING;
+            //   this.pictureBox13.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_MSI_GeForce_RTX_2060_GAMING;
             this.pictureBox13.Location = new System.Drawing.Point(370, 390);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(239, 169);
@@ -148,7 +148,7 @@ namespace WindowsN1VeX
             // 
             // pictureBox12
             // 
-            this.pictureBox12.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_KFA2_GeForce_GTX_1080_Ti_HOF;
+            //    this.pictureBox12.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_KFA2_GeForce_GTX_1080_Ti_HOF;
             this.pictureBox12.Location = new System.Drawing.Point(657, 390);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(239, 169);
@@ -157,7 +157,7 @@ namespace WindowsN1VeX
             // 
             // pictureBox11
             // 
-            this.pictureBox11.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_GIGABYTE_GeForce_RTX_3090_GAMING_OC;
+            //    this.pictureBox11.Image = global::WindowsN1VeX.Properties.Resources.// Видеокарта_GIGABYTE_GeForce_RTX_3090_GAMING_OC;
             this.pictureBox11.Location = new System.Drawing.Point(965, 390);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(239, 169);
@@ -166,7 +166,7 @@ namespace WindowsN1VeX
             // 
             // pictureBox10
             // 
-            this.pictureBox10.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_ColorFul_GeForce_RTX_3070_Battle_Ax_NB_V;
+            //    this.pictureBox10.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_ColorFul_GeForce_RTX_3070_Battle_Ax_NB_V;
             this.pictureBox10.Location = new System.Drawing.Point(1566, 157);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(239, 169);
@@ -176,7 +176,7 @@ namespace WindowsN1VeX
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_Palit_GeForce_GTX_1080_Ti_SUPER_JETSTREAM;
+            //    this.pictureBox6.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_Palit_GeForce_GTX_1080_Ti_SUPER_JETSTREAM;
             this.pictureBox6.Location = new System.Drawing.Point(965, 168);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(239, 135);
@@ -186,7 +186,7 @@ namespace WindowsN1VeX
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_Asus_GeForce_GTX_1080_Ti_STRIX;
+            //  this.pictureBox5.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_Asus_GeForce_GTX_1080_Ti_STRIX;
             this.pictureBox5.Location = new System.Drawing.Point(1251, 168);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(239, 135);
@@ -196,7 +196,7 @@ namespace WindowsN1VeX
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_Palit_GeForce_RTX_2080_Super_GAMEROCK_Premium_Edition;
+            //   this.pictureBox3.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_Palit_GeForce_RTX_2080_Super_GAMEROCK_Premium_Edition;
             this.pictureBox3.Location = new System.Drawing.Point(657, 168);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(239, 135);
@@ -206,7 +206,7 @@ namespace WindowsN1VeX
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_Palit_GeForce_RTX_3070_GamingPro;
+            //   this.pictureBox2.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_Palit_GeForce_RTX_3070_GamingPro;
             this.pictureBox2.Location = new System.Drawing.Point(69, 168);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(239, 135);
@@ -216,7 +216,7 @@ namespace WindowsN1VeX
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_Palit_GeForce_RTX_3090_GameRock;
+            //   this.pictureBox1.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта_Palit_GeForce_RTX_3090_GameRock;
             this.pictureBox1.Location = new System.Drawing.Point(370, 168);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(239, 135);

@@ -99,7 +99,6 @@ namespace WindowsN1VeX
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::WindowsN1VeX.Properties.Resources.Корпус_CoolerMaster_MasterBox_Q300P_MCB_Q300P_KANN_S02_черный_2;
             this.pictureBox4.Location = new System.Drawing.Point(1085, 99);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(273, 283);
@@ -109,7 +108,6 @@ namespace WindowsN1VeX
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::WindowsN1VeX.Properties.Resources.Корпус_1STPLAYER_DK_DX_1;
             this.pictureBox3.Location = new System.Drawing.Point(748, 99);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.pictureBox3.Name = "pictureBox3";
@@ -120,7 +118,6 @@ namespace WindowsN1VeX
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::WindowsN1VeX.Properties.Resources.Корпус_Cougar_MX660_Mesh_RGB;
             this.pictureBox2.Location = new System.Drawing.Point(447, 99);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.pictureBox2.Name = "pictureBox2";
@@ -132,7 +129,6 @@ namespace WindowsN1VeX
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.pictureBox1.Image = global::WindowsN1VeX.Properties.Resources.Корпус_GiNZZU_GL550;
             this.pictureBox1.Location = new System.Drawing.Point(62, 99);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.pictureBox1.Name = "pictureBox1";
