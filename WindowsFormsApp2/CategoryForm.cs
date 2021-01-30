@@ -15,13 +15,13 @@ namespace WindowsN1VeX
         public CategoryForm(string category) 
         {
             InitializeComponent();
-            if (category == "Корпуса")
+           if (category == "Корпуса")
             {
-                pictureBox1.Load("../../Resources/Корпуса/Корпус GiNZZU GL550.jpg");
+              pictureBox1.Load("../../Resources/Корпуса/Корпус GiNZZU GL5501.jpg");
             }
             if (category == "Видеокарты")
             {
-                pictureBox1.Load("../../Resources/Видеокарты/Видеокарта KFA2 GeForce GTX 1080 Ti HOF КОРОБКА.jpg");
+                pictureBox1.Load("../../Resources/Видеокарты/Видеокарта Видеокарта MSI GeForce RTX 3090 GAMING X TRIO КОРОБКА.jpg");
             }
 
             if (category == "Блок питания")

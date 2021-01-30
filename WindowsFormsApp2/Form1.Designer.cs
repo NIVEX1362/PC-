@@ -152,7 +152,6 @@ namespace WindowsN1VeX
             // 
             // pictureBox9
             // 
-            this.pictureBox9.Image = global::WindowsN1VeX.Properties.Resources.SSd;
             this.pictureBox9.Location = new System.Drawing.Point(1014, 160);
             this.pictureBox9.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox9.Name = "pictureBox9";
@@ -164,7 +163,6 @@ namespace WindowsN1VeX
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = global::WindowsN1VeX.Properties.Resources.HDD;
             this.pictureBox8.Location = new System.Drawing.Point(779, 448);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox8.Name = "pictureBox8";
@@ -176,7 +174,6 @@ namespace WindowsN1VeX
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::WindowsN1VeX.Properties.Resources.Материнская_плата;
             this.pictureBox7.Location = new System.Drawing.Point(555, 448);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox7.Name = "pictureBox7";
@@ -188,7 +185,6 @@ namespace WindowsN1VeX
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = global::WindowsN1VeX.Properties.Resources.Оперативная_памать;
             this.pictureBox6.Location = new System.Drawing.Point(293, 448);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox6.Name = "pictureBox6";
@@ -200,7 +196,6 @@ namespace WindowsN1VeX
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::WindowsN1VeX.Properties.Resources.Охлаждение_для_процессора;
             this.pictureBox5.Location = new System.Drawing.Point(58, 448);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox5.Name = "pictureBox5";
@@ -212,7 +207,6 @@ namespace WindowsN1VeX
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::WindowsN1VeX.Properties.Resources.Процессоры;
             this.pictureBox4.Location = new System.Drawing.Point(779, 163);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox4.Name = "pictureBox4";
@@ -224,7 +218,6 @@ namespace WindowsN1VeX
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::WindowsN1VeX.Properties.Resources.блок_питания;
             this.pictureBox3.Location = new System.Drawing.Point(555, 163);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox3.Name = "pictureBox3";
@@ -236,7 +229,6 @@ namespace WindowsN1VeX
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::WindowsN1VeX.Properties.Resources.Видеокарта;
             this.pictureBox2.Location = new System.Drawing.Point(293, 163);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(5);
             this.pictureBox2.Name = "pictureBox2";
