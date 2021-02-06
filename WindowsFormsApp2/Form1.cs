@@ -9,21 +9,40 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsN1VeX
-{
+{ 
+    public struct Detail
+    {
+        public PictureBox picture;
+        public Label label;
+
+        public int price;
+        public string name;
+        public string opisanie;
+    }
+
+
+
+       
     public partial class Form1 : Form
     {
+        public Detail[] Corpusa = new Detail[4];
         public Form1()
         {
             InitializeComponent();
+
+            Corpusa[0] = new Detail();
+            Corpusa[0].name = "Корпус DEEPCOOL MATREXX 55 V3 ADD-RGB 3F 1";
+            Corpusa[0].picture = pictureBox4;
+
+            Corpusa[1] = new Detail();
+            Corpusa[1].name = "Корпус GiNZZU GL5501";
+            Corpusa[1].picture = pictureBox1;
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             MessageBox.Show("Добро пожаловать))");
         }
-
-
-
 
 
         private void button2_Click_1(object sender, EventArgs e)
