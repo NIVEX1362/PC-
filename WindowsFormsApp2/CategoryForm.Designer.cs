@@ -39,6 +39,7 @@ namespace WindowsN1VeX
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -146,11 +147,21 @@ namespace WindowsN1VeX
             this.textBox1.Size = new System.Drawing.Size(708, 30);
             this.textBox1.TabIndex = 14;
             // 
-            // Form2
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(1568, 422);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(70, 25);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "label5";
+            // 
+            // CategoryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1911, 941);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.label4);
@@ -163,7 +174,7 @@ namespace WindowsN1VeX
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.Name = "Form2";
+            this.Name = "CategoryForm";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
@@ -188,5 +199,6 @@ namespace WindowsN1VeX
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label5;
     }
 }

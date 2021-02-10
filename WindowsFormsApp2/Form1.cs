@@ -25,19 +25,15 @@ namespace WindowsN1VeX
        
     public partial class Form1 : Form
     {
-        public Detail[] Corpusa = new Detail[4];
         public Form1()
         {
             InitializeComponent();
 
-            Corpusa[0] = new Detail();
-            Corpusa[0].name = "Корпус DEEPCOOL MATREXX 55 V3 ADD-RGB 3F 1";
-            Corpusa[0].picture = pictureBox4;
 
-            Corpusa[1] = new Detail();
-            Corpusa[1].name = "Корпус GiNZZU GL5501";
-            Corpusa[1].picture = pictureBox1;
         }
+
+
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -108,7 +104,10 @@ namespace WindowsN1VeX
             f.Show();
         }
 
-
-
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form3 f = new Form3();
+            f.Show();
+        }
     }
 }

@@ -557,5 +557,11 @@
   <ItemGroup>
     <None Include="Resources\Корпус GiNZZU GL5501.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Корпуса\Корпус GiNZZU GL5501.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Корпуса\Корпус DEEPCOOL MATREXX 55 V3 ADD-RGB 3F 1.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

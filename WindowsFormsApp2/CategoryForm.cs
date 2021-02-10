@@ -26,7 +26,7 @@ namespace WindowsN1VeX
                 pictureBox3.Load("../../Resources/Корпуса/Корпус " + label3.Text + ".png");
                 label4.Text = "DEEPCOOL MATREXX 55 V3 ADD-RGB 3F 1";
                 pictureBox4.Load("../../Resources/Корпуса/Корпус " + label4.Text + ".jpg");
-                
+            
             }
             
             if (category == "Видеокарты")
