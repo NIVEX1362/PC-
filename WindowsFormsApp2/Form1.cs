@@ -10,15 +10,6 @@ using System.Windows.Forms;
 
 namespace WindowsN1VeX
 { 
-    public struct Detail
-    {
-        public PictureBox picture;
-        public Label label;
-
-        public int price;
-        public string name;
-        public string opisanie;
-    }
 
 
 
@@ -54,6 +45,8 @@ namespace WindowsN1VeX
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             CategoryForm f = new CategoryForm("Корпуса");
+
+
             f.Show();
         }
 
