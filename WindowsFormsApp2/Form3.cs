@@ -66,6 +66,7 @@ namespace WindowsN1VeX
             //details[6].picture = pictureBox6;
 
             details[7] = new Detail();
+            details[7].category = "Видеокарты";
             details[7].name = "Видеокарта KFA2 GeForce GTX 1080 Ti HOF";
             //details[3].picture = pictureBox7;
 
@@ -85,28 +86,43 @@ namespace WindowsN1VeX
             details[11].name = "Видеокарта MSI GeForce RTX 2060 GAMING";
             //details[11].picture = pictureBox11;
 
-            for (int i = 0; i < 12; i++)
+
+            
+            int x = 55;
+            int y = 120;  
+            for (int i = 0; i < 12 ; i++)
             {
+                PictureBox pb = new PictureBox();
+                pb.Location = new Point(x, y);
+                //pb.Text = details[i].category + details[i];
+                pb.Size = new Size(120, 120);
+                pb.SizeMode = PictureBoxSizeMode.Zoom;
+                //pb.Click += new EventHandler(button1_Click);
+                try
+                {
+                    pb.Load("../../Resources/" + details[i].category + "/" + details[i].name + ".jpg");
+                }
+                catch (Exception) { }
+                details[i].picture = pb;
+                Controls.Add(pb);
+
+
+
                 Label label1 = new Label();
-                label1.Location = new Point(20 + 150 * i, 230);
+                label1.Location = new Point(55 + 170 * i, 270);
                 label1.Size = new Size(120, 90);
                 label1.Text = details[i].name;
                 details[i].label = label1;
                 Controls.Add(label1);
-
-                PictureBox pb1 = new PictureBox();
-                pb1.Location = new Point(20 + 150 * i, 100);
-                pb1.Size = new Size(120, 120);
-                pb1.SizeMode = PictureBoxSizeMode.Zoom;
-                details[i].picture = pb1;
-                try
+            
+                x = x + 170;
+                if (x + 130 > Width) 
                 {
-                    pb1.Load("../../Resources/Корпуса/" + details[i].name + ".jpg");
-
+                    x = 50;
+                    y = y + 260;
                 }
-                catch (Exception) { }
-                Controls.Add(pb1);
             }
+
 
         }
 

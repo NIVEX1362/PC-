@@ -60,7 +60,6 @@ namespace WindowsN1VeX
             // 
             // pictureBox7
             // 
-            //  this.pictureBox7.Image = global::WindowsN1VeX.Properties.Resources._3581b708038cd47466f26dbb1ea129a60125fa765059aa99ee9ce305f09de4a4;
             this.pictureBox7.Location = new System.Drawing.Point(399, 343);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(231, 161);
@@ -70,7 +69,6 @@ namespace WindowsN1VeX
             // 
             // pictureBox8
             // 
-            //  this.pictureBox8.Image = global::WindowsN1VeX.Properties.Resources._36936e5027a77ac1518a8f1885deefecbb063d107e529597428189deb5690044;
             this.pictureBox8.Location = new System.Drawing.Point(54, 343);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(231, 161);
@@ -80,17 +78,16 @@ namespace WindowsN1VeX
             // 
             // pictureBox6
             // 
-            //   this.pictureBox6.Image = global::WindowsN1VeX.Properties.Resources._24fa14defeac5529e23ddd6e159106016004fc380ae0b717608724d8f6917da8;
             this.pictureBox6.Location = new System.Drawing.Point(399, 110);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(231, 161);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 5;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox5
             // 
-            //   this.pictureBox5.Image = global::WindowsN1VeX.Properties.Resources.// _2de1a89609e4467e2ff4010ba0be6778e71f286aeb4d58cf124f510c491235f9;
             this.pictureBox5.Location = new System.Drawing.Point(746, 110);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(231, 161);
@@ -100,7 +97,6 @@ namespace WindowsN1VeX
             // 
             // pictureBox4
             // 
-            //   this.pictureBox4.Image = global::WindowsN1VeX.Properties.Resources._2ee51743b3c1d7a80ddbe9ec77f7c96c4809e47e14be6a9ea3215e18e1b6a622;
             this.pictureBox4.Location = new System.Drawing.Point(1045, 110);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(231, 161);
@@ -110,7 +106,6 @@ namespace WindowsN1VeX
             // 
             // pictureBox3
             // 
-            //   this.pictureBox3.Image = global::WindowsN1VeX.Properties.Resources._5ea7ae98713676bbc28047d12717c0b4dd818f7bd92fb198ad83210c22e893c0;
             this.pictureBox3.Location = new System.Drawing.Point(1045, 343);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(231, 161);
@@ -120,7 +115,6 @@ namespace WindowsN1VeX
             // 
             // pictureBox2
             // 
-            //   this.pictureBox2.Image = global::WindowsN1VeX.Properties.Resources._3a868b049e42980de26dfc6e3418706d40c62560668d475e37400ba352b272a8;
             this.pictureBox2.Location = new System.Drawing.Point(746, 343);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(231, 161);
@@ -130,7 +124,6 @@ namespace WindowsN1VeX
             // 
             // pictureBox1
             // 
-            //     this.pictureBox1.Image = global::WindowsN1VeX.Properties.Resources._1b94fd7306cde0db750345aa15f975170c622193117e7f977c594512fbe8f090;
             this.pictureBox1.Location = new System.Drawing.Point(54, 110);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(231, 161);
@@ -260,7 +253,7 @@ namespace WindowsN1VeX
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Form4";
             this.Text = "Form4";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();

@@ -21,5 +21,10 @@ namespace WindowsN1VeX
         {
 
         }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
