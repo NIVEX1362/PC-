@@ -63,16 +63,6 @@ namespace WindowsN1VeX.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _1561182942_2 {
-            get {
-                object obj = ResourceManager.GetObject("1561182942_2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap HDD {
             get {
                 object obj = ResourceManager.GetObject("HDD", resourceCulture);
@@ -106,56 +96,6 @@ namespace WindowsN1VeX.Properties {
         internal static System.Drawing.Bitmap Видеокарта {
             get {
                 object obj = ResourceManager.GetObject("Видеокарта", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Корпус_1STPLAYER_DK_DX_1 {
-            get {
-                object obj = ResourceManager.GetObject("Корпус 1STPLAYER DK DX 1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Корпус_CoolerMaster_MasterBox_Q300P_MCB_Q300P_KANN_S02_черный_2 {
-            get {
-                object obj = ResourceManager.GetObject("Корпус CoolerMaster MasterBox Q300P MCB-Q300P-KANN-S02 черный 2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Корпус_Cougar_MX660_Mesh_RGB {
-            get {
-                object obj = ResourceManager.GetObject("Корпус Cougar MX660 Mesh RGB", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Корпус_GiNZZU_GL550 {
-            get {
-                object obj = ResourceManager.GetObject("Корпус GiNZZU GL550", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Корпус_для_пк {
-            get {
-                object obj = ResourceManager.GetObject("Корпус для пк", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

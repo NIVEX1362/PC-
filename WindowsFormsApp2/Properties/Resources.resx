@@ -118,17 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Корпус GiNZZU GL550" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Корпус GiNZZU GL550.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Корпус 1STPLAYER DK DX 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Корпус 1STPLAYER DK DX 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="HDD" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HDD.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Корпус для пк" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Корпус для пк.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Оперативная памать" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Оперативная памать.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -139,9 +130,6 @@
   <data name="Охлаждение для процессора" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Охлаждение для процессора.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Корпус Cougar MX660 Mesh RGB" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Корпус Cougar MX660 Mesh RGB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Процессоры" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Процессоры.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -151,13 +139,7 @@
   <data name="Материнская плата" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Материнская плата.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1561182942_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1561182942_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Видеокарта" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Видеокарта.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Корпус CoolerMaster MasterBox Q300P MCB-Q300P-KANN-S02 черный 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Корпус CoolerMaster MasterBox Q300P MCB-Q300P-KANN-S02 черный 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

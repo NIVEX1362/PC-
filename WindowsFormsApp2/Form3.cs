@@ -67,6 +67,7 @@ namespace WindowsN1VeX
                    
                 }
                 details[i].picture = pb;
+
                 Controls.Add(pb);
 
 
@@ -93,15 +94,30 @@ namespace WindowsN1VeX
         {
             for (int i = 0; i < 11; i++)
             {
-             details[i].picture.Visible = false;
-            if (textBox1.Text != "" &&
-               details[i].name == textBox1.Text)
-              {
-               details[i].picture.Visible = true;
-              }
+                details[i].picture.Visible = true;
+
+                if (nameTextBox.Text != "" &&
+                    !details[i].name.Contains(nameTextBox.Text))
+                {
+                    details[i].picture.Visible = false;
+                }
 
 
-                    }
+                if (priceTextBox.Text != "" &&
+                    details[i].price > Convert.ToInt32(priceTextBox.Text))
+                {
+                    details[i].picture.Visible = false;
+                }
+
+
+                details[i].label.Visible = details[i].picture.Visible;
+            }
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
