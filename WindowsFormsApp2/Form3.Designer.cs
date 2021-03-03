@@ -59,7 +59,6 @@ namespace WindowsN1VeX
             this.priceTextBox.Name = "priceTextBox";
             this.priceTextBox.Size = new System.Drawing.Size(414, 30);
             this.priceTextBox.TabIndex = 7;
-            this.priceTextBox.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label1
             // 

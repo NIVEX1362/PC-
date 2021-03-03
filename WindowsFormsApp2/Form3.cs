@@ -34,6 +34,7 @@ namespace WindowsN1VeX
         //public Detail[] details = new Detail[400];
         public List<Detail> details_List = new List<Detail>();
 
+       
         public Form3()
         {
             InitializeComponent();
@@ -50,33 +51,30 @@ namespace WindowsN1VeX
             details_List.Add ( new Detail("Видеокарта MSI GeForce RTX 2060 GAMING", "Видекарты", 20000));     
 
             int x = 55;
-            int y = 120;  
-            for (int i = 0; i < details_List.Count; i++)
+            int y = 120;
+            for (int i = 0; i < details_List.Count; i++) 
             {
-                details_list[i].picture.Location = new Point(x, y);
+                details_List[i].picture.Location = new Point(x, y);
                 //pb.Text = details[i].category + details[i];
-                details_list[i].picture.Size = new Size(120, 120);
-                pb.SizeMode = PictureBoxSizeMode.Zoom;
+                details_List[i].picture.Size = new Size(120, 120);
+                details_List[i].picture.SizeMode = PictureBoxSizeMode.Zoom;
                 //pb.Click += new EventHandler(button1_Click);
                 try
                 {
-                    pb.Load("../../Resources/" + details_list[i].category + "/" + details_list[i].name + ".jpg");
+                    details_List[i].picture.Load("../../Resources/" + details_List[i].category + "/" +  details_List[i].name + ".jpg");
                 }
                 catch (Exception ex) {
                    
                 }
-                details_list[i].picture = pb;
-
-                Controls.Add(pb);
-
+              
+               Controls.Add( details_List[i].picture);
 
 
-                Label label1 = new Label();
-                label1.Location = new Point(55 + 170 * i, 270);
-                label1.Size = new Size(120, 90);
-                label1.Text = details_list[i].name;
-                details_list[i].label = label1;
-                Controls.Add(label1);
+
+                details_List[i].label.Location = new Point(55 + 170 * i, 270);
+                details_List[i].label.Size = new Size(120, 90);
+                details_List[i].label.Text = details_List[i].name;
+                Controls.Add(details_List[i].label);
             
                 x = x + 170;
                 if (x + 130 > Width) 
@@ -85,6 +83,16 @@ namespace WindowsN1VeX
                     y = y + 260;
                 }
             }
+                        /*
+            if (details_List == "Видеокарты");
+            {
+                ComboBox1.details_List.Add.Clear();
+                for (int i = 0; 1 < details_List. details_List[i].picture.Cout; 1++)
+                {
+                    if (details_List.details_List[i].descripline == "Видеокарты")
+                        ComboBox1.details_List.Add(details_List.Add.details_List[i].name0);
+                }
+            }            */
 
 
         }
@@ -93,23 +101,23 @@ namespace WindowsN1VeX
         {
             for (int i = 0; i < 11; i++)
             {
-                details_list[i].picture.Visible = true;
+                details_List[i].picture.Visible = true;
 
                 if (nameTextBox.Text != "" &&
-                    details_list[i].name.Contains(nameTextBox.Text))
+                     details_List[i].name.Contains(nameTextBox.Text))
                 {
-                    details_list[i].picture.Visible = false;
+                    details_List[i].picture.Visible = false;
                 }
 
 
                 if (priceTextBox.Text != "" &&
-                    details_list[i].price > Convert.ToInt32(priceTextBox.Text))
+                     details_List[i].price > Convert.ToInt32(priceTextBox.Text))
                 {
-                    details_list[i].picture.Visible = false;
+                    details_List[i].picture.Visible = false;
                 }
 
 
-                details_list[i].label.Visible = details_list[i].picture.Visible;
+                details_List[i].label.Visible = details_List[i].picture.Visible;
             }
         }
 
@@ -119,4 +127,4 @@ namespace WindowsN1VeX
         }
 
     }
-}
+};
