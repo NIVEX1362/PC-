@@ -16,19 +16,44 @@ namespace WindowsN1VeX
         public CategoryForm(string category) 
         {
             InitializeComponent();
-            if (category == "Корпуса")
+
+            int x = 55;
+            int y = 120;
+            foreach (Detail corpus in AllDetails.details_List)
             {
-                label1.Text = "GiNZZU GL5501";
-                pictureBox1.Load("../../Resources/Корпуса/Корпус " + label1.Text + ".jpg");
-                label2.Text = "1STPLAYER DK DX 11";
-                pictureBox2.Load("../../Resources/Корпуса/Корпус " + label2.Text + ".jpg");
-                label3.Text = "Cougar MX660 Mesh RGB";
-                pictureBox3.Load("../../Resources/Корпуса/Корпус " + label3.Text + ".png");
-                label4.Text = "DEEPCOOL MATREXX 55 V3 ADD-RGB 3F 1";
-                pictureBox4.Load("../../Resources/Корпуса/Корпус " + label4.Text + ".jpg");
-            
+                //Прилетели корпуса, ищем их. Видеокарты - их
+                if (corpus.category == category)
+                {
+                    //Картинка с товаром
+                    PictureBox picture = new PictureBox();
+                    picture.Location = new Point(x, y);
+                    picture.Size = new Size(120, 120);
+                    picture.SizeMode = PictureBoxSizeMode.Zoom;
+                    try
+                    {
+                        picture.Load("../../Resources/" + corpus.category + "/" + corpus.name + ".jpg");
+                    }
+                    catch (Exception) {  }
+
+                    Controls.Add(picture);
+
+                    //Штука чтобы подписать название
+                    Label label = new Label();
+                    label.Location = new Point(x, y + 170);
+                    label.Size = new Size(120, 90);
+                    label.Text = corpus.name;
+                    Controls.Add(label);
+
+                    x = x + 170;
+                    if (x + 130 > Width)
+                    {
+                        x = 50;
+                        y = y + 260;
+                    }
+                }    
             }
-            
+
+            /*
             if (category == "Видеокарты")
            
             {
@@ -69,7 +94,7 @@ namespace WindowsN1VeX
                 pictureBox3.Load("../../Resources/Процессоры/48822a842545ffd3059d8bf32cddba99d975471429e8baba07877f82bde2c164.jpg");
                 pictureBox4.Load("../../Resources/Процессоры/f4363b2efd4f5292f57eb5e37ea92e7a1a590fd34a01341d135497737883e9f4.jpg");
                 pictureBox5.Load("../../Resources/Процессоры/db27210e31d1ea3ab6dc2e372d493d177bc55764fcf10e88879340b78038486e.jpg");
-            };
+            };*/
         }
 
         private void Form2_Load(object sender, EventArgs e)

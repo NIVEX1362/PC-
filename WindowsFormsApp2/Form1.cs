@@ -37,10 +37,7 @@ namespace WindowsN1VeX
             System.Diagnostics.Process.Start("");
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start("https://www.citilink.ru/catalog/computers_and_notebooks/parts/motherboards/?gclid=EAIaIQobChMIw9zRi4GP7gIVAt-yCh0d3QwHEAAYASAAEgI_4fD_BwE");
-        }
+     
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -99,7 +96,7 @@ namespace WindowsN1VeX
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form3 f = new Form3();
+            AllDetails f = new AllDetails();
             f.Show();
         }
     }
