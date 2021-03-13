@@ -29,6 +29,10 @@ namespace WindowsN1VeX
                     picture.Location = new Point(x, y);
                     picture.Size = new Size(120, 120);
                     picture.SizeMode = PictureBoxSizeMode.Zoom;
+<<<<<<< HEAD
+                    picture.Click += new EventHandler(AllDetails.OpenDetail);
+=======
+>>>>>>> e87cdae79ddefc84a9d9c7e819b81e7b65d22cd3
                     try
                     {
                         picture.Load("../../Resources/" + corpus.category + "/" + corpus.name + ".jpg");

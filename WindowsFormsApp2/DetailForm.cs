@@ -12,9 +12,19 @@ namespace WindowsN1VeX
 {
     public partial class DetailForm : Form
     {
-        public DetailForm()
+        Detail detail;
+        public DetailForm(string _detail)
         {
             InitializeComponent();
+
+            foreach (Detail detail1 in AllDetails.details_List)
+            {
+                if (detail1.name == _detail)
+                {
+                    detail = detail1;
+                    pictureBox1.Image = detail1.picture.Image;
+                }
+            }
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -30,6 +40,21 @@ namespace WindowsN1VeX
         private void button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        void button1_Click_1(object sender, EventArgs e)
+        {
+            
+            if (AllDetails.korzina.ContainsKey(detail))
+            {
+                
+                AllDetails.korzina[detail] = AllDetails.korzina[detail] + 1;
+            }
+            
+            else
+            {
+                AllDetails.korzina.Add(detail, 1);
+            }
         }
     }
 }

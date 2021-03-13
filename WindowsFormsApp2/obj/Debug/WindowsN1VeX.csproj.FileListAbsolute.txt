@@ -15,8 +15,6 @@ C:\Users\user\Desktop\PC-\WindowsFormsApp2\bin\Debug\WindowsN1VeX.pdb
 C:\Users\user\Desktop\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.csprojAssemblyReference.cache
 C:\Users\user\Desktop\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.Form1.resources
 C:\Users\user\Desktop\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.CategoryForm.resources
-C:\Users\user\Desktop\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.Form3.resources
-C:\Users\user\Desktop\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.Form4.resources
 C:\Users\user\Desktop\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.Properties.Resources.resources
 C:\Users\user\Desktop\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.csproj.GenerateResource.cache
 C:\Users\user\Desktop\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.csproj.CoreCompileInputs.cache
@@ -48,3 +46,23 @@ C:\Users\user\Downloads\PC--main (7)\PC--main\WindowsFormsApp2\obj\Debug\Windows
 C:\Users\user\Downloads\PC--main (7)\PC--main\WindowsFormsApp2\obj\Debug\WindowsN1VeX.csproj.CoreCompileInputs.cache
 D:\НГ_pk24\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.DetailForm.resources
 D:\НГ_pk24\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.AllDetails.resources
+<<<<<<< HEAD
+C:\Users\beavi\Desktop\Новая папка\PC-\WindowsFormsApp2\bin\Debug\WindowsN1VeX.exe.config
+C:\Users\beavi\Desktop\Новая папка\PC-\WindowsFormsApp2\bin\Debug\WindowsN1VeX.exe
+C:\Users\beavi\Desktop\Новая папка\PC-\WindowsFormsApp2\bin\Debug\WindowsN1VeX.pdb
+C:\Users\beavi\Desktop\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.csprojAssemblyReference.cache
+C:\Users\beavi\Desktop\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.DetailForm.resources
+C:\Users\beavi\Desktop\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.Form1.resources
+C:\Users\beavi\Desktop\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.CategoryForm.resources
+C:\Users\beavi\Desktop\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.AllDetails.resources
+C:\Users\beavi\Desktop\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.Properties.Resources.resources
+C:\Users\beavi\Desktop\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.csproj.GenerateResource.cache
+C:\Users\beavi\Desktop\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.csproj.CoreCompileInputs.cache
+C:\Users\beavi\Desktop\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.exe
+C:\Users\beavi\Desktop\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.pdb
+C:\Users\beavi\Desktop\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.CartForm.resources
+C:\Users\user\Desktop\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.CartForm.resources
+C:\Users\user\Desktop\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.DetailForm.resources
+C:\Users\user\Desktop\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.AllDetails.resources
+=======
+>>>>>>> e87cdae79ddefc84a9d9c7e819b81e7b65d22cd3

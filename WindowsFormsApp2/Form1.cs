@@ -99,5 +99,10 @@ namespace WindowsN1VeX
             AllDetails f = new AllDetails();
             f.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new CartForm().Show();
+        }
     }
 }
