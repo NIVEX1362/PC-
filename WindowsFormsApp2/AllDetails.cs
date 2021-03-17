@@ -52,15 +52,15 @@ namespace WindowsN1VeX
             details_List.Add(new Detail("GTX 1660 SUPER", "Видеокарты", 20000));
             details_List.Add(new Detail("Видеокарта Gigabyte GeForce GTX 1080 Ti FOUNDER EDITION", "Видеокарты", 20000));
             details_List.Add(new Detail("RX 5500 XT", "Видеокарты", 20000));
-            details_List.Add(new Detail("", "Видеокарты", 20000)); 
-            details_List.Add(new Detail("Ryzen 5 3600XT", "Видеокарты", 20000));
+            details_List.Add(new Detail("GTX 1650", "Видеокарты", 20000)); 
+            details_List.Add(new Detail("GTX 1660 SUPER", "Видеокарты", 20000));
             details_List.Add(new Detail("Intel i9-10900k", "Процессоры", 20000));
             details_List.Add(new Detail("Ryzen 5 3600XT", "Процессоры", 20000));
             details_List.Add(new Detail("Ryzen 7 3700", "Процессоры", 20000));
             details_List.Add(new Detail("Intel I9-9900k", "Процессоры", 20000));
             details_List.Add(new Detail("Intel I7-9700k", "Процессоры", 20000));
             details_List.Add(new Detail("Intel I3-9100F", "Процессоры", 20000));
-            details_List.Add(new Detail("cb8dc0750daec6e30e498f6dcaa51a3238f5959db9dc4f1edc6dcf13ea712e4a", "Процессоры", 20000));
+            details_List.Add(new Detail("Intel i5-9400F", "Процессоры", 20000));
 
 
 
