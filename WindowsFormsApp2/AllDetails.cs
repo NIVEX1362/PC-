@@ -33,8 +33,9 @@ namespace WindowsN1VeX
     {
         //public Detail[] details = new Detail[400];
         public static List<Detail> details_List = new List<Detail>();
+        public static Dictionary<Detail, int> korzina = new Dictionary<Detail, int>();
 
-       
+
         public AllDetails()
         {
             InitializeComponent();
@@ -50,15 +51,15 @@ namespace WindowsN1VeX
             details_List.Add(new Detail("Видеокарта Gigabyte GeForce GTX 1060 WF OC", "Видеокарты", 20000));
             details_List.Add(new Detail("GTX 1660 SUPER", "Видеокарты", 20000));
             details_List.Add(new Detail("Видеокарта Gigabyte GeForce GTX 1080 Ti FOUNDER EDITION", "Видеокарты", 20000));
-            details_List.Add(new Detail("RX 5500 XT вид сбоку", "Видеокарты", 20000));
-            details_List.Add(new Detail("f391984b5e1a394a18395ef7a5e7dfc48bcbf86d7ec77c77d283a8dc08fc3663", "Видеокарты", 20000)); 
-            details_List.Add(new Detail("879bd0d95c7e23ff0ff43b5a3889ba357a221303dad13a31b6d24d86bc3d001b", "Видеокарты", 20000));
-            details_List.Add(new Detail("1b32a3ee2edc7686bb64685d2b91d64236e8c8ab13c2b24a91c78f4388305628", "Процессоры", 20000));
-            details_List.Add(new Detail("4ec990398a1f17baa31dabdbc7eb69198a748aa7c066e9a9e8f8333800eccc4f", "Процессоры", 20000));
-            details_List.Add(new Detail("5ea7ae98713676bbc28047d12717c0b4dd818f7bd92fb198ad83210c22e893c0", "Процессоры", 20000));
-            details_List.Add(new Detail("48822a842545ffd3059d8bf32cddba99d975471429e8baba07877f82bde2c164", "Процессоры", 20000));
-            details_List.Add(new Detail("f4363b2efd4f5292f57eb5e37ea92e7a1a590fd34a01341d135497737883e9f4", "Процессоры", 20000));
-            details_List.Add(new Detail("db27210e31d1ea3ab6dc2e372d493d177bc55764fcf10e88879340b78038486e", "Процессоры", 20000));
+            details_List.Add(new Detail("RX 5500 XT", "Видеокарты", 20000));
+            details_List.Add(new Detail("", "Видеокарты", 20000)); 
+            details_List.Add(new Detail("Ryzen 5 3600XT", "Видеокарты", 20000));
+            details_List.Add(new Detail("Intel i9-10900k", "Процессоры", 20000));
+            details_List.Add(new Detail("Ryzen 5 3600XT", "Процессоры", 20000));
+            details_List.Add(new Detail("Ryzen 7 3700", "Процессоры", 20000));
+            details_List.Add(new Detail("Intel I9-9900k", "Процессоры", 20000));
+            details_List.Add(new Detail("Intel I7-9700k", "Процессоры", 20000));
+            details_List.Add(new Detail("Intel I3-9100F", "Процессоры", 20000));
             details_List.Add(new Detail("cb8dc0750daec6e30e498f6dcaa51a3238f5959db9dc4f1edc6dcf13ea712e4a", "Процессоры", 20000));
 
 
@@ -110,7 +111,14 @@ namespace WindowsN1VeX
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public static void OpenDetail(object sender, EventArgs e)
+        {
+            PictureBox pb = (PictureBox)sender;
+            new DetailForm(pb.Tag.ToString()).Show();
+        }
+
+
+            private void button1_Click(object sender, EventArgs e)
         {
             for (int i = 0; i < 11; i++)
             {
