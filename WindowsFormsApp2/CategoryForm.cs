@@ -30,12 +30,8 @@ namespace WindowsN1VeX
                     picture.Size = new Size(120, 120);
                     picture.SizeMode = PictureBoxSizeMode.Zoom;
                     picture.Click += new EventHandler(AllDetails.OpenDetail);
-                    try
-                    {
-                        picture.Load("../../Resources/" + corpus.category + "/" + corpus.name + ".jpg");
-                    }
-                    catch (Exception) {  }
-
+                    picture.Tag = corpus.name;
+                    picture.Image = corpus.picture.Image;
                     Controls.Add(picture);
 
                     //Штука чтобы подписать название

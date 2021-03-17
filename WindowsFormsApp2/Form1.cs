@@ -97,7 +97,7 @@ namespace WindowsN1VeX
         private void button1_Click(object sender, EventArgs e)
         {
             AllDetails f = new AllDetails();
-            f.Show();
+            f.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)

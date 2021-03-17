@@ -264,17 +264,17 @@ namespace WindowsN1VeX
             // 
             this.button1.Location = new System.Drawing.Point(77, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(107, 54);
+            this.button1.Size = new System.Drawing.Size(193, 73);
             this.button1.TabIndex = 25;
-            this.button1.Text = "button1";
+            this.button1.Text = "Все комплектующие";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(77, 72);
+            this.button2.Location = new System.Drawing.Point(77, 82);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(107, 54);
+            this.button2.Size = new System.Drawing.Size(193, 61);
             this.button2.TabIndex = 26;
             this.button2.Text = "Corzina";
             this.button2.UseVisualStyleBackColor = true;

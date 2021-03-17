@@ -49,3 +49,17 @@ D:\НГ_pk24\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.AllDetails.resources
 C:\Users\user\Desktop\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.CartForm.resources
 C:\Users\user\Desktop\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.DetailForm.resources
 C:\Users\user\Desktop\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.AllDetails.resources
+D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\bin\Debug\WindowsN1VeX.exe.config
+D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\bin\Debug\WindowsN1VeX.exe
+D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\bin\Debug\WindowsN1VeX.pdb
+D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.csprojAssemblyReference.cache
+D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.CartForm.resources
+D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.DetailForm.resources
+D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.Form1.resources
+D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.CategoryForm.resources
+D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.AllDetails.resources
+D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.Properties.Resources.resources
+D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.csproj.GenerateResource.cache
+D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.csproj.CoreCompileInputs.cache
+D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.exe
+D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.pdb

@@ -35,44 +35,56 @@ namespace WindowsN1VeX
         public static List<Detail> details_List = new List<Detail>();
         public static Dictionary<Detail, int> korzina = new Dictionary<Detail, int>();
 
-
-        public AllDetails()
+        /// <summary>
+        /// Заполнить все детали
+        /// </summary>
+        public static void FillDetails()
         {
-            InitializeComponent();
-            details_List.Add(new Detail("Корпус DEEPCOOL MATREXX 55 V3 ADD-RGB 3F 1", "Корпуса", 0));
-            details_List.Add(new Detail("Корпус GiNZZU GL5501", "Корпуса", 0));
-            details_List.Add(new Detail("Корпус GiNZZU GL5501", "Корпуса", 30));
-            details_List.Add(new Detail("Корпус CoolerMaster MasterBox Q300P MCB-Q300P-KANN-S02 черный 2", "Корпуса", 115));
-            details_List.Add(new Detail("Корпус DEEPCOOL MATREXX 55 V3 ADD-RGB 3F 1", "Корпуса", 30));
-            details_List.Add(new Detail("Корпус DEEPCOOL MATREXX 55 V3 ADD-RGB 3F 2", "Корпуса", 1211));
-            details_List.Add(new Detail("Видеокарта-GIGABYTE-GeForce-RTX-2080-Super-AORUS-WATERFORCE-WB", "Видеокарты", 60000));
-            details_List.Add(new Detail("Видеокарта KFA2 GeForce GTX 1080 Ti HOF", "Видеокарты", 55000));
-            details_List.Add(new Detail("Видеокарта Gigabyte GeForce GTX 1080 Ti AORUS XTREME WB", "Видеокарты", 85000));
-            details_List.Add(new Detail("Видеокарта Gigabyte GeForce GTX 1060 WF OC", "Видеокарты", 20000));
+            details_List.Add(new Detail("DEEPCOOL MATREXX 55 V3 ADD-RGB 3F 1", "Корпуса", 0));
+            details_List.Add(new Detail("GiNZZU GL5501", "Корпуса", 0));
+            details_List.Add(new Detail("GiNZZU GL5501", "Корпуса", 30));
+            details_List.Add(new Detail("CoolerMaster MasterBox Q300P MCB-Q300P-KANN-S02 черный 2", "Корпуса", 115));
+            details_List.Add(new Detail("DEEPCOOL MATREXX 55 V3 ADD-RGB 3F 1", "Корпуса", 30));
+            details_List.Add(new Detail("DEEPCOOL MATREXX 55 V3 ADD-RGB 3F 2", "Корпуса", 1211));
+            details_List.Add(new Detail("GIGABYTE-GeForce-RTX-2080-Super-AORUS-WATERFORCE-WB", "Видеокарты", 60000));
+            details_List.Add(new Detail("KFA2 GeForce GTX 1080 Ti HOF", "Видеокарты", 55000));
+            details_List.Add(new Detail("Gigabyte GeForce GTX 1080 Ti AORUS XTREME WB", "Видеокарты", 85000));
+            details_List.Add(new Detail("Gigabyte GeForce GTX 1060 WF OC", "Видеокарты", 20000));
             details_List.Add(new Detail("GTX 1660 SUPER", "Видеокарты", 20000));
-            details_List.Add(new Detail("Видеокарта Gigabyte GeForce GTX 1080 Ti FOUNDER EDITION", "Видеокарты", 20000));
+            details_List.Add(new Detail("Gigabyte GeForce GTX 1080 Ti FOUNDER EDITION", "Видеокарты", 20000));
             details_List.Add(new Detail("RX 5500 XT", "Видеокарты", 20000));
-            details_List.Add(new Detail("", "Видеокарты", 20000)); 
-            details_List.Add(new Detail("Ryzen 5 3600XT", "Видеокарты", 20000));
+            details_List.Add(new Detail("GTX 1650", "Видеокарты", 20000));
+            details_List.Add(new Detail("GTX 1660 SUPER", "Видеокарты", 20000));
             details_List.Add(new Detail("Intel i9-10900k", "Процессоры", 20000));
             details_List.Add(new Detail("Ryzen 5 3600XT", "Процессоры", 20000));
             details_List.Add(new Detail("Ryzen 7 3700", "Процессоры", 20000));
             details_List.Add(new Detail("Intel I9-9900k", "Процессоры", 20000));
             details_List.Add(new Detail("Intel I7-9700k", "Процессоры", 20000));
             details_List.Add(new Detail("Intel I3-9100F", "Процессоры", 20000));
-            details_List.Add(new Detail("cb8dc0750daec6e30e498f6dcaa51a3238f5959db9dc4f1edc6dcf13ea712e4a", "Процессоры", 20000));
+            details_List.Add(new Detail("Intel i5-9400F", "Процессоры", 20000));
+            details_List.Add(new Detail("be quiet! SYSTEM POWER 9 550W", "Блок питания", 20000));
+            details_List.Add(new Detail("Chieftec 750W", "Блок питания", 20000));
+            details_List.Add(new Detail("CoolerMaster MWE 550 WHITE - V2", "Блок питания", 20000));
+            details_List.Add(new Detail("ZALMAN MegaMax", "Блок питания", 20000));
+            details_List.Add(new Detail("Toughpower GX1 500W", "Блок питания", 20000));
+            details_List.Add(new Detail("Deepcool DQ650", "Блок питания", 20000));
+        }
 
-
+        public AllDetails()
+        {
+            InitializeComponent();
 
             int x = 55;
-            int y = 120;
+            int y = 10;
             for (int i = 0; i < details_List.Count; i++) 
             {
                 details_List[i].picture.Location = new Point(x, y);
                 //pb.Text = details[i].category + details[i];
+                details_List[i].picture.Tag = details_List[i].name;
                 details_List[i].picture.Size = new Size(120, 120);
                 details_List[i].picture.SizeMode = PictureBoxSizeMode.Zoom;
-                //pb.Click += new EventHandler(button1_Click);
+                details_List[i].picture.Click -= new EventHandler(OpenDetail);
+                details_List[i].picture.Click += new EventHandler(OpenDetail);
                 try
                 {
                     details_List[i].picture.Load("../../Resources/" + details_List[i].category + "/" +  details_List[i].name + ".jpg");
@@ -81,14 +93,14 @@ namespace WindowsN1VeX
                    
                 }
               
-               Controls.Add( details_List[i].picture);
+                panel1.Controls.Add( details_List[i].picture);
 
 
 
-                details_List[i].label.Location = new Point(55 + 170 * i, 270);
+                details_List[i].label.Location = new Point(x, y + 120);
                 details_List[i].label.Size = new Size(120, 90);
                 details_List[i].label.Text = details_List[i].name;
-                Controls.Add(details_List[i].label);
+                panel1.Controls.Add(details_List[i].label);
             
                 x = x + 170;
                 if (x + 130 > Width) 
@@ -97,18 +109,6 @@ namespace WindowsN1VeX
                     y = y + 260;
                 }
             }
-                        /*
-            if (details_List == "Видеокарты");
-            {
-                ComboBox1.details_List.Add.Clear();
-                for (int i = 0; 1 < details_List. details_List[i].picture.Cout; 1++)
-                {
-                    if (details_List.details_List[i].descripline == "Видеокарты")
-                        ComboBox1.details_List.Add(details_List.Add.details_List[i].name0);
-                }
-            }            */
-
-
         }
 
         public static void OpenDetail(object sender, EventArgs e)
@@ -120,7 +120,7 @@ namespace WindowsN1VeX
 
             private void button1_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < 11; i++)
+            for (int i = 0; i < details_List.Count; i++)
             {
                 details_List[i].picture.Visible = true;
 
@@ -147,5 +147,9 @@ namespace WindowsN1VeX
 
         }
 
+        private void AllDetails_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 };
