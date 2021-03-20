@@ -68,6 +68,17 @@ namespace WindowsN1VeX
             details_List.Add(new Detail("ZALMAN MegaMax", "Блок питания", 20000));
             details_List.Add(new Detail("Toughpower GX1 500W", "Блок питания", 20000));
             details_List.Add(new Detail("Deepcool DQ650", "Блок питания", 20000));
+            for (int i = 0; i < details_List.Count; i++)
+            {
+                try
+                {
+                    details_List[i].picture.Load("../../Resources/" + details_List[i].category + "/" + details_List[i].name + ".jpg");
+                }
+                catch (Exception)
+                {
+
+                }
+            }
         }
 
         public AllDetails()
