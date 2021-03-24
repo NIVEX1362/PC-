@@ -36,6 +36,8 @@ namespace WindowsN1VeX
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,7 +47,7 @@ namespace WindowsN1VeX
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(103, 30);
             this.button1.TabIndex = 4;
-            this.button1.Text = "Search";
+            this.button1.Text = "Поиск";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -85,14 +87,16 @@ namespace WindowsN1VeX
             // 
             this.panel1.AutoScroll = true;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Location = new System.Drawing.Point(0, 100);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1223, 634);
+            this.panel1.Size = new System.Drawing.Size(1223, 534);
             this.panel1.TabIndex = 10;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel2.Controls.Add(this.button4);
+            this.panel2.Controls.Add(this.button3);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.label2);
@@ -103,6 +107,24 @@ namespace WindowsN1VeX
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1223, 100);
             this.panel2.TabIndex = 11;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(1051, 12);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(64, 32);
+            this.button4.TabIndex = 30;
+            this.button4.Text = "En";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(981, 12);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(64, 32);
+            this.button3.TabIndex = 29;
+            this.button3.Text = "Ru";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // AllDetails
             // 
@@ -130,5 +152,7 @@ namespace WindowsN1VeX
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
     }
 }

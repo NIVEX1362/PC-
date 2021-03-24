@@ -104,5 +104,15 @@ namespace WindowsN1VeX
         {
             new CartForm().Show();
         }
+
+        private void Russian_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void English_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

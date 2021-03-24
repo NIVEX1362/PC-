@@ -34,6 +34,11 @@ namespace WindowsN1VeX
         //public Detail[] details = new Detail[400];
         public static List<Detail> details_List = new List<Detail>();
         public static Dictionary<Detail, int> korzina = new Dictionary<Detail, int>();
+        public static Dictionary<string, string> PolWords = new Dictionary<string, string>();
+        public static Dictionary<string, string> RusWords = new Dictionary<string, string>();
+        public static Dictionary<string, string> EngWords = new Dictionary<string, string>();
+
+        
 
         /// <summary>
         /// Заполнить все детали
@@ -68,6 +73,15 @@ namespace WindowsN1VeX
             details_List.Add(new Detail("ZALMAN MegaMax", "Блок питания", 20000));
             details_List.Add(new Detail("Toughpower GX1 500W", "Блок питания", 20000));
             details_List.Add(new Detail("Deepcool DQ650", "Блок питания", 20000));
+
+            RusWords.Add("Название", "Название");
+            EngWords.Add("Название", "Name");
+            RusWords.Add("Цена", "Цена");
+            EngWords.Add("Цена", "Price");
+            RusWords.Add("Поиск", "Поиск");
+            EngWords.Add("Поиск", "Search");
+
+
             for (int i = 0; i < details_List.Count; i++)
             {
                 try
@@ -80,6 +94,8 @@ namespace WindowsN1VeX
                 }
             }
         }
+
+
 
         public AllDetails()
         {
@@ -122,6 +138,7 @@ namespace WindowsN1VeX
             }
         }
 
+
         public static void OpenDetail(object sender, EventArgs e)
         {
             PictureBox pb = (PictureBox)sender;
@@ -153,6 +170,8 @@ namespace WindowsN1VeX
             }
         }
 
+     
+        
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
@@ -162,5 +181,14 @@ namespace WindowsN1VeX
         {
 
         }
+
+ 
+        void RenameAll(Dictionary<string, string> Words)
+        {
+            label1.Text = Words["Название"];
+        }
+
+      
+
     }
 };
