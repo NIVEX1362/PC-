@@ -1,0 +1,28 @@
+DEEPCOOL MATREXX 55 V3 ADD-RGB 3F 1, Корпуса, 0
+GiNZZU GL5501, Корпуса, 0
+GiNZZU GL5501, Корпуса, 30
+CoolerMaster MasterBox Q300P MCB-Q300P-KANN-S02 черный 2, Корпуса, 115
+DEEPCOOL MATREXX 55 V3 ADD-RGB 3F 1, Корпуса, 30
+DEEPCOOL MATREXX 55 V3 ADD-RGB 3F 2, Корпуса, 1211
+GIGABYTE-GeForce-RTX-2080-Super-AORUS-WATERFORCE-WB, Видеокарты, 60000
+KFA2 GeForce GTX 1080 Ti HOF, Видеокарты, 55000
+Gigabyte GeForce GTX 1080 Ti AORUS XTREME WB, Видеокарты, 85000
+Gigabyte GeForce GTX 1060 WF OC, Видеокарты, 20000
+GTX 1660 SUPER, Видеокарты, 20000
+Gigabyte GeForce GTX 1080 Ti FOUNDER EDITION, Видеокарты, 20000
+RX 5500 XT, Видеокарты, 20000
+GTX 1650, Видеокарты, 20000
+GTX 1660 SUPER, Видеокарты, 20000
+Intel i9-10900k, Процессоры, 20000
+Ryzen 5 3600XT, Процессоры, 20000
+Ryzen 7 3700, Процессоры, 20000
+Intel I9-9900k, Процессоры, 20000
+Intel I7-9700k, Процессоры, 20000
+Intel I3-9100F, Процессоры, 20000
+Intel i5-9400F, Процессоры, 20000
+be quiet! SYSTEM POWER 9 550W, Блок питания, 20000
+Chieftec 750W, Блок питания, 20000
+CoolerMaster MWE 550 WHITE - V2, Блок питания, 20000
+ZALMAN MegaMax, Блок питания, 20000
+Toughpower GX1 500W, Блок питания, 20000
+Deepcool DQ650, Блок питания, 20000
