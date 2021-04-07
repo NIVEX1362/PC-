@@ -21,7 +21,11 @@ namespace WindowsN1VeX
         public string category;
         public string name;
         public string opisanie;
-        public Detail(string name1, string category1, int price1)
+
+        public List<string> Colors;
+        public string currentColor;
+
+        public Detail(string name1, string category1, int price1, List<string> colors1)
         {
             label = new Label();
             picture = new PictureBox();
@@ -29,6 +33,8 @@ namespace WindowsN1VeX
             price = price1;
             category = category1;
             opisanie = "";
+            Colors = colors1;
+            currentColor = "";
         }
     }
     public partial class AllDetails : Form
@@ -55,11 +61,14 @@ namespace WindowsN1VeX
             RusWords.Add("Поиск", "Поиск");
             EngWords.Add("Поиск", "Search");
 
+           
             string[] lines = File.ReadAllLines("../../../Комплектующие.txt");
             foreach (string line in lines)
-            {
+            { 
+                List<string> colors = new List<string>() { "Жёлтый", "Белый", "Чёрный" };
                 string[] parts = line.Split(new string[] { ", " }, StringSplitOptions.None);
-                details_List.Add(new Detail(parts[0], parts[1], Convert.ToInt32(parts[2])));
+                details_List.Add(new Detail(parts[0], parts[1], Convert.ToInt32(parts[2]), colors));
+              
             }
 
             for (int i = 0; i < details_List.Count; i++)

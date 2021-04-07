@@ -23,8 +23,6 @@ namespace WindowsN1VeX
         {
             File.AppendAllText("../../../Комплектующие.txt", Environment.NewLine +
                  textBox1.Text + "; Корпуса; 10");
-
-
         }
 
 
@@ -44,14 +42,14 @@ namespace WindowsN1VeX
         {
 
         }
-
+        string address;
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            (openFileDialog1.ShowDialog() == DialogResult.OK)
+            if ( openFileDialog1.ShowDialog() == DialogResult.OK)
                 {
                 address = openFileDialog1.FileName;
                 pictureBox1.Load(address);
-            }
+                }
         }
     }
 }

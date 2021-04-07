@@ -23,6 +23,9 @@ namespace WindowsN1VeX
                 {
                     detail = detail1;
                     pictureBox1.Image = detail1.picture.Image;
+
+                    comboBox1.DataSource = detail.picture.Image;
+                    detail.currentColor = comboBox1.Text;
                 }
             }
         }
@@ -55,6 +58,11 @@ namespace WindowsN1VeX
             {
                 AllDetails.korzina.Add(detail, 1);
             }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            detail.currentColor = comboBox1.Text;
         }
     }
 }
