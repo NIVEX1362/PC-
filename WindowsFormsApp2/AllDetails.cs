@@ -22,10 +22,11 @@ namespace WindowsN1VeX
         public string name;
         public string opisanie;
 
-        public List<string> Colors;
+        public Dictionary<string, int> Colors;
         public string currentColor;
 
-        public Detail(string name1, string category1, int price1, List<string> colors1)
+
+        public Detail(string name1, string category1, int price1, Dictionary<string, int> colors1)
         {
             label = new Label();
             picture = new PictureBox();
@@ -45,7 +46,7 @@ namespace WindowsN1VeX
         public static Dictionary<string, string> PolWords = new Dictionary<string, string>();
         public static Dictionary<string, string> RusWords = new Dictionary<string, string>();
         public static Dictionary<string, string> EngWords = new Dictionary<string, string>();
-
+        public static Dictionary<string, int> colors = new Dictionary<string, int> { };
 
         /// <summary>
         /// Заполнить все детали
@@ -61,17 +62,33 @@ namespace WindowsN1VeX
             RusWords.Add("Поиск", "Поиск");
             EngWords.Add("Поиск", "Search");
 
-           
+              
+
+
             string[] lines = File.ReadAllLines("../../../Комплектующие.txt");
             foreach (string line in lines)
+
+             
             { 
-                List<string> colors = new List<string>() { "Жёлтый", "Белый", "Чёрный" };
-                string[] parts = line.Split(new string[] { ", " }, StringSplitOptions.None);
+                
+         string[] parts = line.Split(new string[] { ", " }, StringSplitOptions.None);
+          
+                Dictionary<string, int> colors = new Dictionary<string, int> { };
+                if (parts.Length > 3)
+            {
+                string[] colorParts = parts[3].Split(new char[] { ';' });
+                for (int i = 0; i < colorParts.Length; i += 2)
+                    colors.Add(colorParts[i], Convert.ToInt32(colorParts[i + 1]));
+
+            }
                 details_List.Add(new Detail(parts[0], parts[1], Convert.ToInt32(parts[2]), colors));
               
             }
 
-            for (int i = 0; i < details_List.Count; i++)
+
+
+
+                for (int i = 0; i < details_List.Count; i++)
             {
                 try
                 {

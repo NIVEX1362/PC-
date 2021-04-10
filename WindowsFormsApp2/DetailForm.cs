@@ -23,8 +23,9 @@ namespace WindowsN1VeX
                 {
                     detail = detail1;
                     pictureBox1.Image = detail1.picture.Image;
-
-                    comboBox1.DataSource = detail.picture.Image;
+                    comboBox1.Items.Clear();
+                    foreach (string color in detail.Colors.Keys)
+                        comboBox1.Items.Add(color);
                     detail.currentColor = comboBox1.Text;
                 }
             }
