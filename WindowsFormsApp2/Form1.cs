@@ -117,7 +117,7 @@ namespace WindowsN1VeX
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Form2 f = new Form2();
+            AddDetail f = new AddDetail();
             f.ShowDialog();
         }
     }

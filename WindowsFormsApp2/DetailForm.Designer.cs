@@ -31,9 +31,10 @@ namespace WindowsN1VeX
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,14 +56,14 @@ namespace WindowsN1VeX
             this.label1.Size = new System.Drawing.Size(0, 25);
             this.label1.TabIndex = 15;
             // 
-            // label11
+            // label2
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(443, 9);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(107, 25);
-            this.label11.TabIndex = 25;
-            this.label11.Text = "Название";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(443, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(107, 25);
+            this.label2.TabIndex = 25;
+            this.label2.Text = "Название";
             // 
             // button1
             // 
@@ -81,20 +82,30 @@ namespace WindowsN1VeX
             "Белый",
             "Красный ",
             "Жёлтый"});
-            this.comboBox1.Location = new System.Drawing.Point(448, 68);
+            this.comboBox1.Location = new System.Drawing.Point(470, 70);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(337, 33);
             this.comboBox1.TabIndex = 27;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(470, 203);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(419, 245);
+            this.textBox2.TabIndex = 28;
+            this.textBox2.Text = "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
             // 
             // DetailForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(902, 466);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
@@ -111,8 +122,9 @@ namespace WindowsN1VeX
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }

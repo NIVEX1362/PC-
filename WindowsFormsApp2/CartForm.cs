@@ -21,15 +21,12 @@ namespace WindowsN1VeX
             foreach (KeyValuePair<Detail, int> pair in AllDetails.korzina)
             {
                 Detail detail = pair.Key;
+                UserControl1 uc = new UserControl1(detail);
+                uc.Location = new Point(0, y);
+                Controls.Add(uc);
+
                 int Count = pair.Value;
 
-                //Создаем лейбл
-                Label label = new Label();
-                label.Location = new Point(0, y);
-                //пишем в нем деталь такая-то, столько-то штук
-                label.Text = detail.name + " (" + Count.ToString() + ")";
-                label.Size = new Size(600, 30);
-                Controls.Add(label);
                 y = y + 50;
             }
         }
