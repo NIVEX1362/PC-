@@ -54,6 +54,7 @@ namespace WindowsN1VeX
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -67,7 +68,7 @@ namespace WindowsN1VeX
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(323, 55);
+            this.textBox1.Location = new System.Drawing.Point(323, 82);
             this.textBox1.Margin = new System.Windows.Forms.Padding(5);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(708, 30);
@@ -311,7 +312,18 @@ namespace WindowsN1VeX
             this.button6.TabIndex = 30;
             this.button6.Text = "+";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Visible = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(517, 12);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(317, 61);
+            this.button5.TabIndex = 31;
+            this.button5.Text = "Войдите или Зарегестрируйтесь ";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // Form1
             // 
@@ -320,6 +332,7 @@ namespace WindowsN1VeX
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1347, 706);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -391,6 +404,7 @@ namespace WindowsN1VeX
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
     }
 }
 

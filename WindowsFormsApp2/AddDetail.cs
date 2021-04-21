@@ -23,8 +23,8 @@ namespace WindowsN1VeX
        private void button1_Click_1(object sender, EventArgs e)
         {
             File.AppendAllText("../../../Комплектующие.txt", Environment.NewLine +
-                 textBox1.Text + ", " + comboBox1.Text + ", " + priceTB.Text + label2);
-            if (address != "")
+                 textBox1.Text + ", " + comboBox1.Text + ", " + priceTB.Text);
+            if (address != "" && !File.Exists("../../Resources/" + comboBox1.Text + "/" + textBox1.Text + ".jpg"))
             {
                 File.Copy(address, "../../Resources/" + comboBox1.Text + "/" + textBox1.Text + ".jpg");
             }

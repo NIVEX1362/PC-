@@ -28,7 +28,7 @@ namespace WindowsN1VeX
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Добро пожаловать))");
+            MessageBox.Show("Войдите или Зарегестрируйтесь))");
         }
 
 
@@ -119,6 +119,14 @@ namespace WindowsN1VeX
         {
             AddDetail f = new AddDetail();
             f.ShowDialog();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            LoginForm f = new LoginForm();
+            f.ShowDialog();
+
+            button6.Visible = (LoginForm.Login == "Admin");
         }
     }
 }

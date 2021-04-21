@@ -26,4 +26,5 @@ ZALMAN MegaMax, Блок питания, 20000, Белый;500;Красный;10
 Toughpower GX1 500W, Блок питания, 20000, Белый;500;Красный;1000;Жёлтый;100
 Deepcool DQ650, Блок питания, 20000, Белый;500;Красный;1000;Синий;100
 Thermaltake AIO TH240 ARGB Sync, Охлаждение, 5650
- GIGABYTE Z390 I AORUS PRO WIFI, Материнская плата, 9500
+GIGABYTE Z390 I AORUS PRO WIFI, Материнская плата, 9500
+SAMSUNG 870 QVO MZ 77Q1T0BW 1ТБ 2.5  SATA 3, SSD, 5650
