@@ -26,6 +26,7 @@ namespace WindowsN1VeX
                  textBox1.Text + ", " + comboBox1.Text + ", " + priceTB.Text);
             if (address != "" && !File.Exists("../../Resources/" + comboBox1.Text + "/" + textBox1.Text + ".jpg"))
             {
+                
                 File.Copy(address, "../../Resources/" + comboBox1.Text + "/" + textBox1.Text + ".jpg");
             }
 

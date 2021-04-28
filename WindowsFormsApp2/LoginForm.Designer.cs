@@ -77,7 +77,7 @@ namespace WindowsN1VeX
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(57, 17);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Пороль";
+            this.label2.Text = "Пароль";
             // 
             // button2
             // 

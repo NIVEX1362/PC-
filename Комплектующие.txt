@@ -28,3 +28,4 @@ Deepcool DQ650, Блок питания, 20000, Белый;500;Красный;10
 Thermaltake AIO TH240 ARGB Sync, Охлаждение, 5650
 GIGABYTE Z390 I AORUS PRO WIFI, Материнская плата, 9500
 SAMSUNG 870 QVO MZ 77Q1T0BW 1ТБ 2.5  SATA 3, SSD, 5650
+HyperX FURY HX432C16FB3K2 16 DDR4, Опертивная памаять, 2600
