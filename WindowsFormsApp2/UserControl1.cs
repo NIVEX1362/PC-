@@ -21,7 +21,9 @@ namespace WindowsN1VeX
             
             comboBox1.Items.Clear();
             pictureBox1.Image = detail.picture.Image;
-            comboBox1.Text = detail.currentColor;  
+            comboBox1.Text = detail.currentColor;
+            label1.Text = detail.name;
+            label2.Text = detail.price.ToString();
         }
 
 
@@ -30,8 +32,10 @@ namespace WindowsN1VeX
         {
             AllDetails.korzina.Remove(detail);
         }
-    
-    
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Mail;
@@ -32,7 +33,7 @@ namespace WindowsN1VeX
 
                 int Count = pair.Value;
 
-                y = y + 50;
+                y = y + 70;
             }
         }
 
@@ -44,9 +45,24 @@ namespace WindowsN1VeX
                 MailMessage mail = new MailMessage();
                 mail.From = new MailAddress("rpdelta132@gmail.com");
                 mail.To.Add(new MailAddress("rpdelta132@gmail.com"));
-                mail.Subject = "компьтерные детали";
-                mail.Body = "Здраствуйте Артём ваши детали указаны ниже";
 
+                mail.Subject = "Новый заказ!";
+                mail.IsBodyHtml = true;
+                //mail.Body = File.ReadAllText("Привет");
+
+                File.WriteAllText("Заказ.csv", "Название,Цвет,Цена,Количество");
+                foreach (KeyValuePair<Detail, int> pair in AllDetails.korzina)
+                {
+                    Detail detail = pair.Key;
+                    int Count = pair.Value;
+
+                    File.AppendAllText("Заказ.csv",
+                        Environment.NewLine +
+                        detail.name + "," + detail.currentColor + "," + detail.price.ToString() + "," + Count.ToString());
+
+                    mail.Attachments.Add(new Attachment("../../Resources/" + detail.category + "/" + detail.name + ".jpg"));
+                }
+                mail.Attachments.Add(new Attachment("Заказ.csv"));
                 SmtpClient client = new SmtpClient();
                 client.Host = "smtp.gmail.com";
                 client.Port = 587;
@@ -55,7 +71,7 @@ namespace WindowsN1VeX
 
                 client.DeliveryMethod = SmtpDeliveryMethod.Network;
                 client.Send(mail);
-                mail.Dispose();
+                mail.Dispose(); 
 
                 MessageBox.Show("отправил");
             }

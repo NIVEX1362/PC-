@@ -27,6 +27,8 @@ namespace WindowsN1VeX
                     foreach (string color in detail.Colors.Keys)
                         comboBox1.Items.Add(color);
                     detail.currentColor = comboBox1.Text;
+                    label2.Text = detail.name;
+                    label3.Text = detail.price.ToString();
                 }
             }
         }
