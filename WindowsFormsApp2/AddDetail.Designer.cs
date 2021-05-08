@@ -82,7 +82,7 @@ namespace WindowsN1VeX
             "Материнская плата",
             "Блок питания",
             "Видеокарты",
-            "Опертивная памаять",
+            "Оперативная память",
             "SSD",
             "HDD"});
             this.comboBox1.Location = new System.Drawing.Point(144, 96);

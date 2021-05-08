@@ -55,6 +55,7 @@ namespace WindowsN1VeX
             this.button4 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -134,9 +135,9 @@ namespace WindowsN1VeX
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(288, 659);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(218, 25);
+            this.label7.Size = new System.Drawing.Size(229, 25);
             this.label7.TabIndex = 22;
-            this.label7.Text = "Опертивная память";
+            this.label7.Text = "Оперативная память";
             // 
             // label8
             // 
@@ -280,27 +281,27 @@ namespace WindowsN1VeX
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(193, 61);
             this.button2.TabIndex = 26;
-            this.button2.Text = "Corzina";
+            this.button2.Text = "Корзина";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(1079, 12);
+            this.button3.Location = new System.Drawing.Point(1079, 0);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(64, 32);
+            this.button3.Size = new System.Drawing.Size(96, 52);
             this.button3.TabIndex = 27;
-            this.button3.Text = "Ru";
+            this.button3.Text = "Рус";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.Russian_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(1149, 12);
+            this.button4.Location = new System.Drawing.Point(1171, 0);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(64, 32);
+            this.button4.Size = new System.Drawing.Size(101, 52);
             this.button4.TabIndex = 28;
-            this.button4.Text = "En";
+            this.button4.Text = "Анг";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.English_Click);
             // 
@@ -325,6 +326,16 @@ namespace WindowsN1VeX
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(1079, 50);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(193, 61);
+            this.button7.TabIndex = 32;
+            this.button7.Text = "Обратная связь";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
@@ -332,6 +343,7 @@ namespace WindowsN1VeX
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1347, 706);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button4);
@@ -357,7 +369,7 @@ namespace WindowsN1VeX
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Cursor = System.Windows.Forms.Cursors.No;
+            this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ForeColor = System.Drawing.Color.Black;
             this.Margin = new System.Windows.Forms.Padding(5);
@@ -405,6 +417,7 @@ namespace WindowsN1VeX
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button7;
     }
 }
 

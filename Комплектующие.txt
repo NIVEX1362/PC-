@@ -28,4 +28,6 @@ Deepcool DQ650, Блок питания, 20000, Белый;500;Красный;10
 Thermaltake AIO TH240 ARGB Sync, Охлаждение, 5650
 GIGABYTE Z390 I AORUS PRO WIFI, Материнская плата, 9500
 SAMSUNG 870 QVO MZ 77Q1T0BW 1ТБ 2.5  SATA 3, SSD, 5650
-HyperX FURY HX432C16FB3K2 16 DDR4, Опертивная памаять, 2600
+HyperX FURY HX432C16FB3K2 16 DDR4, Оперативная память, 2600
+AMD Radeon R7 Performance Series R748G2606U2S-UO DDR4 - 8ГБ 2666,DIMM,OEM, Оперативная память, 12300
+CORSAIR Vengeance LPX CMK16GX4M2B3200C16 DDR4 - 2x 8ГБ 3200,DIMM,Ret, Оперативная память, 5500

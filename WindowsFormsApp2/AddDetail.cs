@@ -21,16 +21,17 @@ namespace WindowsN1VeX
        
 
        private void button1_Click_1(object sender, EventArgs e)
-        {
+       {
             File.AppendAllText("../../../Комплектующие.txt", Environment.NewLine +
-                 textBox1.Text + ", " + comboBox1.Text + ", " + priceTB.Text);
+                 textBox1.Text + ", " + comboBox2.Text + ", " + priceTB.Text);
             if (address != "" && !File.Exists("../../Resources/" + comboBox1.Text + "/" + textBox1.Text + ".jpg"))
-            {
-                
+            {                
                 File.Copy(address, "../../Resources/" + comboBox1.Text + "/" + textBox1.Text + ".jpg");
             }
 
-                File.WriteAllText("../../Resources/" + comboBox1.Text + "/" + textBox1.Text + ".txt", textBox1.Text);
+            File.WriteAllText("../../Resources/" + comboBox1.Text + "/" + textBox1.Text + ".txt", textBox2.Text);
+
+            MessageBox.Show("Деталь успешно добавлена");
         }
 
         string address;

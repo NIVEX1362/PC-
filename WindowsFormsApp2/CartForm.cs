@@ -48,7 +48,7 @@ namespace WindowsN1VeX
 
                 mail.Subject = "Новый заказ!";
                 mail.IsBodyHtml = true;
-                //mail.Body = File.ReadAllText("Привет");
+                mail.Body = File.ReadAllText("Привет");
 
                 File.WriteAllText("Заказ.csv", "Название,Цвет,Цена,Количество");
                 foreach (KeyValuePair<Detail, int> pair in AllDetails.korzina)

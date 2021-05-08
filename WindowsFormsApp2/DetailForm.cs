@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,7 +29,13 @@ namespace WindowsN1VeX
                         comboBox1.Items.Add(color);
                     detail.currentColor = comboBox1.Text;
                     label2.Text = detail.name;
-                    label3.Text = detail.price.ToString();
+                    label3.Text = "Цена: " + detail.price.ToString();
+
+                    try
+                    {
+                        textBox2.Text = File.ReadAllText("../../Resources/" + detail.category + "/" + detail.name + ".txt");
+                    }
+                    catch (Exception) { }
                 }
             }
         }
@@ -66,6 +73,11 @@ namespace WindowsN1VeX
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             detail.currentColor = comboBox1.Text;
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -31,6 +31,7 @@ namespace WindowsN1VeX
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             AllDetails.korzina.Remove(detail);
+            Parent = null;
         }
 
         private void label1_Click(object sender, EventArgs e)

@@ -89,6 +89,12 @@
     <Compile Include="AddDetail.Designer.cs">
       <DependentUpon>AddDetail.cs</DependentUpon>
     </Compile>
+    <Compile Include="ObrSvyaz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ObrSvyaz.Designer.cs">
+      <DependentUpon>ObrSvyaz.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +129,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ObrSvyaz.resx">
+      <DependentUpon>ObrSvyaz.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

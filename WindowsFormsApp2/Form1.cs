@@ -128,5 +128,11 @@ namespace WindowsN1VeX
 
             button6.Visible = (LoginForm.Login == "Admin");
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            ObrSvyaz f = new ObrSvyaz();
+            f.ShowDialog();
+        }
     }
 }

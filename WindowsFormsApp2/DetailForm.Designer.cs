@@ -70,7 +70,7 @@ namespace WindowsN1VeX
             // 
             this.button1.Location = new System.Drawing.Point(814, 13);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 41);
+            this.button1.Size = new System.Drawing.Size(75, 51);
             this.button1.TabIndex = 26;
             this.button1.Text = "+";
             this.button1.UseVisualStyleBackColor = true;
@@ -83,18 +83,21 @@ namespace WindowsN1VeX
             "Белый",
             "Красный ",
             "Жёлтый"});
-            this.comboBox1.Location = new System.Drawing.Point(470, 70);
+            this.comboBox1.Location = new System.Drawing.Point(448, 70);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(337, 33);
+            this.comboBox1.Size = new System.Drawing.Size(442, 33);
             this.comboBox1.TabIndex = 27;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(470, 203);
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Enabled = false;
+            this.textBox2.Location = new System.Drawing.Point(470, 122);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(419, 245);
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(419, 326);
             this.textBox2.TabIndex = 28;
             this.textBox2.Text = "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
             // 
@@ -106,6 +109,7 @@ namespace WindowsN1VeX
             this.label3.Size = new System.Drawing.Size(62, 25);
             this.label3.TabIndex = 29;
             this.label3.Text = "Цена";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // DetailForm
             // 
