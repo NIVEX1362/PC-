@@ -61,8 +61,16 @@ namespace WindowsN1VeX
             EngWords.Add("Цена", "Price");
             RusWords.Add("Поиск", "Поиск");
             EngWords.Add("Поиск", "Search");
-
-              
+            RusWords.Add("Корзина", "Корзина");
+            EngWords.Add("Корзина", "Cart");
+            RusWords.Add("Все комплектующие", "Все комплектующие");
+            EngWords.Add("Все комплектующие", "All details");
+            RusWords.Add("Видеокарты", "Видеокарты");
+            EngWords.Add("Видеокарты", "Videocarts");
+            RusWords.Add("Корпуса", "Корпуса");
+            EngWords.Add("Корпуса", "Corpysa");
+            RusWords.Add("Блок питания", "Блок питания");
+            EngWords.Add("Блок питания", "Power block");
 
 
             string[] lines = File.ReadAllLines("../../../Комплектующие.txt");

@@ -52,7 +52,6 @@ C:\Users\user\Desktop\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.AllDetails.res
 D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\bin\Debug\WindowsN1VeX.exe.config
 D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\bin\Debug\WindowsN1VeX.exe
 D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\bin\Debug\WindowsN1VeX.pdb
-D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.csprojAssemblyReference.cache
 D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.CartForm.resources
 D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.DetailForm.resources
 D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.Form1.resources

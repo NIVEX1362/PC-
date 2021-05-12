@@ -107,11 +107,22 @@ namespace WindowsN1VeX
 
         private void Russian_Click(object sender, EventArgs e)
         {
+            translate(AllDetails.RusWords);
+        }
+
+        void translate(Dictionary<string, string> words)
+        {
+            button1.Text = words["Все комплектующие"];
+            button2.Text = words["Корзина"];
+            label1.Text = words["Видеокарты"];
+            label2.Text = words["Корпуса"];
+            label3.Text = words["Блок питания"];
 
         }
 
         private void English_Click(object sender, EventArgs e)
         {
+            translate(AllDetails.EngWords);
 
         }
 
