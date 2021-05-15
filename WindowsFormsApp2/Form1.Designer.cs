@@ -56,6 +56,7 @@ namespace WindowsN1VeX
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -115,11 +116,11 @@ namespace WindowsN1VeX
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(1100, 363);
+            this.label5.Location = new System.Drawing.Point(1074, 363);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(57, 25);
+            this.label5.Size = new System.Drawing.Size(110, 25);
             this.label5.TabIndex = 20;
-            this.label5.Text = "SSD";
+            this.label5.Text = "SSD диск";
             // 
             // label6
             // 
@@ -151,11 +152,11 @@ namespace WindowsN1VeX
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(882, 659);
+            this.label9.Location = new System.Drawing.Point(815, 659);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(57, 25);
+            this.label9.Size = new System.Drawing.Size(156, 25);
             this.label9.TabIndex = 24;
-            this.label9.Text = "HHD";
+            this.label9.Text = "Жёсткий диск";
             // 
             // pictureBox9
             // 
@@ -318,11 +319,11 @@ namespace WindowsN1VeX
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(517, 12);
+            this.button5.Location = new System.Drawing.Point(550, 12);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(317, 61);
+            this.button5.Size = new System.Drawing.Size(187, 61);
             this.button5.TabIndex = 31;
-            this.button5.Text = "Войдите или Зарегестрируйтесь ";
+            this.button5.Text = "Войдите ";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -336,6 +337,16 @@ namespace WindowsN1VeX
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(1020, 659);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(288, 25);
+            this.label10.TabIndex = 33;
+            this.label10.Text = "Добавить комплектующие";
+            this.label10.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
@@ -343,6 +354,7 @@ namespace WindowsN1VeX
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1347, 706);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button6);
@@ -418,6 +430,7 @@ namespace WindowsN1VeX
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label label10;
     }
 }
 

@@ -28,7 +28,7 @@ namespace WindowsN1VeX
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Войдите или Зарегестрируйтесь))");
+            MessageBox.Show("Войдите");
         }
 
 
@@ -114,11 +114,21 @@ namespace WindowsN1VeX
         {
             button1.Text = words["Все комплектующие"];
             button2.Text = words["Корзина"];
+            button5.Text = words["Войдите"];
+            button7.Text = words["Обратная связь"];
             label1.Text = words["Видеокарты"];
             label2.Text = words["Корпуса"];
             label3.Text = words["Блок питания"];
+            label4.Text = words["Процессоры"];
+            label5.Text = words["ССД"];
+            label6.Text = words["Охлаждение"];
+            label7.Text = words["Оперативная память"];
+            label8.Text = words["Материнская плата"];
+            label9.Text = words["Жёсткий диск"];
+            label10.Text = words["Добавить комплектующие"];
 
         }
+
 
         private void English_Click(object sender, EventArgs e)
         {
@@ -137,7 +147,8 @@ namespace WindowsN1VeX
             LoginForm f = new LoginForm();
             f.ShowDialog();
 
-            button6.Visible = (LoginForm.Login == "Admin");
+        label10.Visible = (LoginForm.Login == "Admin");
+        button6.Visible = (LoginForm.Login == "Admin");
         }
 
         private void button7_Click(object sender, EventArgs e)

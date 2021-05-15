@@ -70,3 +70,4 @@ D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.c
 D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.UserControl1.resources
 D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.LoginForm.resources
 D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.ObrSvyaz.resources
+D:\НГ_pk24\Новая папка\PC-\WindowsFormsApp2\obj\Debug\WindowsN1VeX.csprojAssemblyReference.cache

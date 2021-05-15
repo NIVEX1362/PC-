@@ -71,7 +71,24 @@ namespace WindowsN1VeX
             EngWords.Add("Корпуса", "Corpysa");
             RusWords.Add("Блок питания", "Блок питания");
             EngWords.Add("Блок питания", "Power block");
-
+            RusWords.Add("Процессоры", "Процессоры");
+            EngWords.Add("Процессоры", "Processor");
+            RusWords.Add("ССД", "ССД");
+            EngWords.Add("ССД", "SSD");
+            RusWords.Add("Охлаждение", "Охлаждение");
+            EngWords.Add("Охлаждение", "Cooling");
+            RusWords.Add("Оперативная память", "Оперативная память");
+            EngWords.Add("Оперативная память", "RAM");
+            RusWords.Add("Материнская плата", "Мвтеринская плата");
+            EngWords.Add("Материнская плата",  "Maternal memory");
+            RusWords.Add("Жёсткий диск", "Жёсткий диск");
+            EngWords.Add("Жёсткий диск", "HDD");
+            RusWords.Add("Добавить комплектующие", "Добавить комплектующие");
+            EngWords.Add("Добавить комплектующие", "Add accessories");
+            RusWords.Add("Обратная связь", "Обратная связь");
+            EngWords.Add("Обратная связь", "Feedback");
+            RusWords.Add("Войдите", "Войдите");
+            EngWords.Add("Войдите" , "Sing in");
 
             string[] lines = File.ReadAllLines("../../../Комплектующие.txt");
             foreach (string line in lines)
